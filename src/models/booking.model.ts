@@ -2,9 +2,6 @@
  * Varauksen tietomallit ja DTO:t
  */
 
-/**
- * Varaus tietokannassa
- */
 export interface Booking {
   id: string;
   roomId: string;
@@ -16,21 +13,15 @@ export interface Booking {
   createdAt: Date;
 }
 
-/**
- * Varauksen luontipyyntö (API:lta tuleva data)
- */
 export interface CreateBookingDto {
   roomId: string;
   userId: string;
   userEmail: string;
   title: string;
   startTime: string; // ISO 8601 muodossa
-  endTime: string;   // ISO 8601 muodossa
+  endTime: string; // ISO 8601 muodossa
 }
 
-/**
- * Varauksen vastaus (API:n palauttama data)
- */
 export interface BookingResponse {
   id: string;
   roomId: string;
@@ -39,6 +30,6 @@ export interface BookingResponse {
   userEmail: string;
   title: string;
   startTime: string; // ISO 8601 muodossa
-  endTime: string;   // ISO 8601 muodossa
+  endTime: string; // ISO 8601 muodossa
   createdAt: string; // ISO 8601 muodossa
 }
