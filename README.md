@@ -292,4 +292,4 @@ npm run typecheck      # TypeScript-tarkistus
 
 ## Tekijä
 
-Toteutettu osana fullstack trainee rekrytointitehtävää.
+Toteutettu osana rekrytointitehtävää.
