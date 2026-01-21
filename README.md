@@ -292,4 +292,4 @@ npm run typecheck      # TypeScript-tarkistus
 
 ## Tekijä
 
-Toteutettu osana Vincit Oy:n rekrytointitehtävää.
+Toteutettu osana rekrytointitehtävää.
