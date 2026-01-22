@@ -9,6 +9,10 @@ REST API kokoushuoneiden varaamiseen. Mahdollistaa varausten luomisen, peruutuks
 
 ---
 
+# HUOMIO
+
+Olen pistänyt AI agentit kopioimaan keskusteluni niiden kanssa per sessio tiedostoon PROMPTIT.md. Raakakopioitu teksti ei ollut kovin ihmisluettavaa, joten päätin ottaa tämän verran vapauksia PROMPTIT.md:n luomisessa. Tästä huolimatta raakakopioitu data on kuitenkin tiedostossa PROMPTIT_RAAKA.md, jos sen haluaa esim. analysoida AI:lla.
+
 ## Ominaisuudet
 
 - RESTful API kokoushuoneiden varaamiseen
@@ -184,7 +188,7 @@ Projekti noudattaa **TDD-lähestymistapaa** ja sisältää kattavan testikokoelm
 
 **Testityypit:**
 
-- **Yksikkötestit** (32 testiä):
+- **Yksikkötestit** (39 testiä):
   - Validointi (17 testiä)
   - Palvelut (7 testiä)
   - Apufunktiot (15 testiä)
